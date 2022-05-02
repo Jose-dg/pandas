@@ -1,37 +1,3 @@
-Static files
-    7. Add static files to project
-    https://programmerclick.com/article/6584879228/
-    https://programmerclick.com/article/62201656431/
-
-    8. Prepare static/media to deploy: Do necesary custom for statics files. Amazon S3 or whitenoise(Autoserver)
-    https://pharos.sh/entrega-de-archivos-estaticos-en-python-con-django-aws-s3-y-whitenoise/#:~:text=WhiteNoise%20permite%20que%20su%20proyecto,de%20los%20proveedores%20de%20servicios.
-
-Templates install
-    9. Templates
-
-Database models
-    10. Create models, def __str__,
-        makemigrations
-        migrate
-
-    11. Add models in admin.py
-        Createsuperuser
-        Add urls, 2 steps
-
-:::
-Django + Amason S3
-
-AKIASS4JB6WGATEU2UNH
-ID de clave de acceso
-
-2BXvA7lNwHEGrkrj6V3wt9+rGWs2/70MuXwlC9L0
-Clave de acceso secreta
-
-Jose
-Usuario
-
-:::::
-
 import gspread
 import pandas as pd
 from binance.client import Client
@@ -44,6 +10,7 @@ api_key_j = 'pCDzGdx6v2YBFJlHmo2UgcVzFXQF6vLRdyQn2Vkzy9rryFOyQqSx7uWY6MhcIMIM'
 client = Client(api_key_j, api_secret_j)
 client.ping()
 deposits = client.get_deposit_history()
+
 withdraws = client.get_withdraw_history()
 trades = client.get_c2c_trade_history()
 
@@ -90,3 +57,4 @@ spreadsheet = client.open('Pay Day')
 # deletesheed = spreadsheet.del_worksheet('test_bin')
 worksheet = spreadsheet.add_worksheet('test_bin', 200, 9)
 worksheet.update([df.columns.values.tolist()] + df.values.tolist())
+

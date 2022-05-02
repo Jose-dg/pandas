@@ -1,0 +1,163 @@
+
+Compadrito
+Eran 700 y subio 805
+
+1. 22-01-2022 100 a 400.000
+2. 28-01-2022 100 a 350.000
+3. 30-01-2022 100 a 50.000
+4. 05-02-2022 100 a 395.000
+5. 12-02-2022 100 a 387.000
+6.
+
+Quicklabs
+Google funtions
+Github copilot
+
+Homeworks
+
+    Double codes
+    Bad codes: eGifter, eneba, electronic first
+    December nequi
+    App prices codes: login, django, deploy, api, Mercadolibre con el valor real
+
+Programa
+
+Preguntarle a Santiago si nos puede seguir ayudando con el programa o que si mejor buscamos alguien que si quiera
+Agregar las columnas a las entidades donse se lleva el control de los pagos de las plataformas
+Automatizar PayDay
+Un cajon de comprobar si el email si se envío
+Preguntar por la eliminacion de Bancolomba
+
+
+Contabilidad
+    Cerrar la contabilidad con Ivon y Ricardo
+    Como se lleva el control de toda la retefuente y iva que nos ha cobrado Mercadolibre y nos  a seguir cobrando
+    Como completar la trazabilidad de las compras para Diem S.A.S sin Jose y Mario o solucinar Jose y Mario
+    Estamos pagando doble y hasta triple 4 por mil
+    Que pasa cuando las facturas reportadas no concuerda con las transferencias en los bancos. Se da por errores humans
+    Necesitamos alguien que haga el arqueo diaro para evitar errores y desfases
+    Cambiar la salud de Angela a Empresa
+
+Drive
+    Agregar costos de publicidad, retefuente, IVA de Mercadolibre
+    Control de gastos de facebook, google y demas cobros en cobru
+    Perfile a mario el archivo de excel de nequi
+
+PayDay
+    Buscar las ventas para poder terminar lo PayDay
+
+Llamar a Bancolombia para ver como se transfier a un nequi
+
+Chat
+
+Evitar la palabra cancela, cancelar
+No a todo el mundo se le puede decir, que los disfrutes
+
+No pedirle al cliente los datos mas de 1 vez
+día(2 digitos)&mes(2 digitos)&año(2 digitos)&hora(formato 24 horas)
+
+
+#Calcular
+    CAC
+    Life time value
+
+Que quisiera esta haciendo.
+
+Si voy ha estar aqui sentado haciendo cosas en el PC quiero estar sin calor en pantaloneta
+Talco para los tennis
+Mas tennis
+Arreglarme la unas de las manos y pies
+
+Llevar la cuenta por número de celuar de cliente y por número de pago. Adicionalmente llevar la cuenta de la cantidad de retiros de Mercadolibre
+y comprarla con las entradas en los bancos. Hacer la diferencia entre lo que entro en dinero y lo que se pago a los proveedores durante el mismo periodo de tiepo
+Es decir llear la cuenta en Plata y en codes y ver la diferencia.
+
+
+#I need join: Number cel, number payment(Mercadopago, cobru, payu --> Banca and program, codes)
+
+#El archivo de View_pago se le debe aplicar el filtro por tienda, luego po forma de pago 'Mercadopago', luego por mes y ahi si hacer la contatenación y cambiarle el nombre de
+#Numero pago se le deb cambiar por 'NÚMERO DE IDENTIFICACIÓN'
+
+#Cuanto estamos pagando de gravamen por pasar por todas las cuentas
+
+#1. Conectarme al endpoint de View_pago
+#2. Conectarme al endpoint de Mercadopago_diem para traer el reporte por mes
+#3. Conectarme al endpoint de View_codigo
+
+#4. Relacionar 1 con 2 por el número de pago
+#Relacionar 4 con 3, de esta forma se obtiene el costo de los productos entregados por orden
+#
+
+#Sumar las disputasfa
+
+:::
+
+Tomar una foto del stock en cantidad y de los productos disponibles para que cuando se costeen me digan exactamente que productos estaban disponibles
+
+:::
+
+B18X48L706LM732J
+B18X48L92VC36V03
+B18X48LV3M95FNLT
+B18X48LD1FNYLFT2
+B18X48LC5CSN8Q49
+10
+
+B18JN4CS4L6FBL8C
+B18JN4CQ5H83X106
+B18JN4CP4KR55RQ7
+B18JN4CR1T2G4MSR
+B18JN4D05C085NJ1
+20
+
+B181M2VB5LLH9X9G
+B181M2V94YY1LL5W
+35
+
+:::
+
+Una utilidad con valores no reales pero promedio para ver que esta pasando en tiempo real y no espearara a costear todo desde cero
+
+En Diem queremos crecer como una empresa de video juegos que conecte y transmita amor
+
+
+3N68-86NB-87EH
+JP62-7ENB-5FQK
+KNH4-23NN-XJ5K
+PBTJ-KXN7-9TGR
+XBMH-HMNE-B6CD
+HXT7-FBND-5888
+QKA4-NBNJ-QMA4
+5DMK-PLNN-8LPA
+JNDC-BBNN-RM5L
+GB84-J4NM-HX22
+FXJA-RHNL-X4CT
+CK36-NDN7-JTPF
+54K9-T5NR-C7RC
+KN47-4AN7-XDJK
+A566-JPNX-NAGT
+FG28-HQN6-HJED
+2LDT-DANP-894C
+D6QG-94NK-LB87
+T5K8-R7N2-XNAL
+LK3H-4JNQ-24EP
+BNHR-78NR-LB2Q
+3MGH-6JNA-QE7H
+5NNE-R3NH-TFMG
+56KD-NPNK-NLR4
+5G4L-A4NQ-76QX
+FLDL-2KN7-K66T
+7PR8-26NR-5HA4
+N7R4-3ENX-4EGP
+9AP2-HNND-CC9L
+8T36-FLN4-THBQ
+X862-BBN2-5DGT
+XPPT-FNN8-5TMR
+N5MM-R4N4-G79Q
+KH88-57NN-37H6
+ER8H-QKNF-P4X8
+N48F-ARNE-PNRF
+A79C-TKNK-9BAK
+KG7Q-CLN6-J2XK
+FBFN-E9NT-XG2Q
+8D4F-55NN-29HB

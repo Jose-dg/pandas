@@ -1,14 +1,20 @@
-import gspread
-import pandas as pd
-from binance.client import Client
-from oauth2client.service_account import ServiceAccountCredentials
-from pandas import DataFrame as Df
+import psycopg2
 
-api_secret_j = 'aIqu0LNm3ivh8HXtABRBWXCpNydyMb8goKhgX0vbjNwCYqyP0DL9mzt9RuIgzbW1'
-api_key_j = 'pCDzGdx6v2YBFJlHmo2UgcVzFXQF6vLRdyQn2Vkzy9rryFOyQqSx7uWY6MhcIMIM'
+conexion1 = psycopg2.connect(database="bd1", user="postgres", password="heladera")
+cursor1 = conexion1.cursor()
+# sql = "insert into articulos(descripcion, precio) values (%s,%s)"
+# datos = ("naranjas", 23.50)
+# cursor1.execute(sql, datos)
+# datos = ("peras", 34)
+# cursor1.execute(sql, datos)
+# datos = ("bananas", 25)
+# cursor1.execute(sql, datos)
+# conexion1.commit()
+# conexion1.close()
 
-client = Client(api_key_j, api_secret_j)
-deposits = client.get_deposit_history()
-withdraws = client.get_withdraw_history()
-trades = client.get_c2c_trade_history()
-print(trades)
+cursor1.execute("select codigo, descripcion, precio from articulos")
+for fila in cursor1:
+    print(fila)
+conexion1.close()
+
+
